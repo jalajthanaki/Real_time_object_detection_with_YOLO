@@ -263,3 +263,7 @@ flow --pbLoad built_graph/yolo.pb --metaLoad built_graph/yolo.meta --imgdir samp
 If you'd like to load a `.pb` and `.meta` file when using `return_predict()` you can set the `"pbLoad"` and `"metaLoad"` options in place of the `"model"` and `"load"` options you would normally set.
 
 That's all.
+
+
+## Credits
+Credits for this code go to https://github.com/thtrieu. I've merely created a wrapper to get people started.

@@ -35,6 +35,7 @@ sudo mkdir opencv
 cd ~/opencv
 sudo git clone https://github.com/opencv/opencv.git
 sudo git clone https://github.com/opencv/opencv_contrib.git
+cd ./opencv
 sudo mkdir ./build
 cd ./build
 sudo cmake -D CMAKE_BUILD_TYPE=RELEASE \

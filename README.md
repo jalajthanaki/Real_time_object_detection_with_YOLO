@@ -25,7 +25,7 @@ Cython:  $ sudo apt-get install cython
 ```
 
 ## Install OpenCV
-Follow the given step or you can refer this [link](https://www.learnopencv.com/install-opencv3-on-ubuntu/)
+Follow the given steps or you can refer this [link](https://www.learnopencv.com/install-opencv3-on-ubuntu/)
 ```
 [compiler] sudo apt-get install build-essential
 [required] sudo apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev

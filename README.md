@@ -63,10 +63,17 @@ sudo ldconfig
 
 You can choose _one_ of the following three ways to get started with darkflow.
 
- Just build the Cython extensions in place. NOTE: If installing this way you will have to use `./flow` in the cloned darkflow directory instead of `flow` as darkflow is not installed globally.
+1. Just build the Cython extensions in place. 
+   NOTE: If installing this way you will have to use `./flow` in the cloned darkflow directory instead of `flow` as darkflow is not installed globally.
     ```
     python setup.py build_ext --inplace
     ```
+2. Let pip install darkflow globally in dev mode (still globally accessible, but changes to the code immediately take effect)
+
+   ```pip install -e .```
+   
+3. Install with pip globally
+   ```pip install .```
 
 ## Flowing the graph using `flow`
 
@@ -268,4 +275,4 @@ That's all.
 
 
 ## Credits
-Credits for this code go to https://github.com/thtrieu. I've merely created a wrapper to get people started.
+Credits for this code go to [Trieu](https://github.com/thtrieu). I've merely created a wrapper to get people started.
